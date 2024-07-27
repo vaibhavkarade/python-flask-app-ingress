@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Well done! You successfully deployed your Flask app, Now you can start building your app'
+        return 'Well done! You successfully deployed your Flask app, Now you can start building your app - updated'
 
     return app
 if __name__ == '__main__':
