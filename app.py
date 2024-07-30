@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Well done! changed '
+        return 'Well done! changed image '
 
     return app
 if __name__ == '__main__':
