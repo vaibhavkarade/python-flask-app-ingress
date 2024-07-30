@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Well done! '
+        return 'Well done! great '
 
     return app
 if __name__ == '__main__':
