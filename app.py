@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Well done! changed image '
+        return 'Well done! Testing the Pipeline Execution '
 
     return app
 if __name__ == '__main__':
