@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: apache
-        image: 891377137882.dkr.ecr.us-west-2.amazonaws.com/python-flask-app:latest
+        image: vaibhavkarade/python-flask-app:latest
         ports:
         - containerPort: 80
